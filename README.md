@@ -17,6 +17,6 @@ Just remember to create a separate folder for the problem, if it doesn't already
 
 1. Fork it ( https://github.com/mdsrosa/project_euler/fork )
 2. Create your feature branch (`git checkout -b my-solution`)
-3. Commit your changes (`git commit -am 'Add solution for problem X'`)
+3. Commit your changes (`git commit -am 'Add solution for problem #X'`)
 4. Push to the branch (`git push origin my-solution`)
 5. Create a new Pull Request
