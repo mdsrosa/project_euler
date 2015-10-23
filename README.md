@@ -10,9 +10,6 @@ Example:
 
 And so on.
 
-I don't see any problem if you want to add a solution for Problem 1 using another language.
-Just remember to create a separate folder for the problem, if it doesn't already exist, and add all solutions to the folder.
-
 # Contributing
 
 1. Fork it ( https://github.com/mdsrosa/project_euler/fork )
