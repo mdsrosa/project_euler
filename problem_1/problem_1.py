@@ -1,11 +1,5 @@
-"""
-Problem 1:
+# Solves => https://github.com/mdsrosa/project_euler/issues/1
 
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. 
-The sum of these multiples is 23.
-
-Find the sum of all the multiples of 3 or 5 below 1000.
-"""
 def sum_multiples_of(n1, n2, x):
     def divisible_by(y, z): return y % z == 0
     n = set()
