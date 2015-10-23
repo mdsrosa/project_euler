@@ -2,9 +2,9 @@
 
 def largest_prime_factor(number, highest_number)
   (2..n).each do |i|
-    dividendo, mod = n.divmod(i)
+    div, mod = n.divmod(i)
     if mod == 0
-      largest_prime_factor(dividendo, i)
+      largest_prime_factor(div, i)
       break
     end
   end
