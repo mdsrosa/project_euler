@@ -1,12 +1,16 @@
-# Solves => https://github.com/mdsrosa/project_euler/issues/1
-
-def largest_prime_factor(number, highest_number)
-  (2..n).each do |i|
-    div, mod = n.divmod(i)
+def largest_prime_factor(number, highest_number=0, printable=false)
+  (2..number).each do |i|
+    div, mod = number.divmod(i)
     if mod == 0
-      largest_prime_factor(div, i)
+      largest_prime_factor(div, i, printable)
       break
     end
   end
-  puts highest_number if n == 1
+  puts "Answer: #{highest_number}" if number == 1 && printable
 end
+
+require 'benchmark'
+Benchmark.bm do |x|
+  x.report { largest_prime_factor(600851475143) }
+end
+largest_prime_factor(600851475143, 0, true)
