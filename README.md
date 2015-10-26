@@ -17,3 +17,6 @@ And so on...
 3. Commit your changes (`git commit -am 'Add solution for problem X'`)
 4. Push to the branch (`git push origin my-solution`)
 5. Create a new Pull Request
+
+# License
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
