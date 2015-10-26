@@ -17,3 +17,9 @@ def largest_palindrome_from_the_product_of_three_digit_numbers
   end
   highest_palindrome
 end
+
+require 'benchmark'
+Benchmark.bm do |x|
+  x.report { largest_palindrome_from_the_product_of_three_digit_numbers }
+end
+puts "Answer: #{largest_palindrome_from_the_product_of_three_digit_numbers}"
