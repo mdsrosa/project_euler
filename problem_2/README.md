@@ -14,3 +14,11 @@ ruby problem_2/solution.rb
    0.000000   0.000000   0.000000 (  0.000009)
 # => Answer: 4613732
 ```
+
+### Python
+```python
+python problem_2/solution.py
+sum_even_fibonacci_numbers_1: 5.02664494514
+sum_even_fibonacci_numbers_2: 1.59693813324
+# Answer: 4613732
+```
