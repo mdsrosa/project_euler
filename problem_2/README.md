@@ -9,7 +9,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 ### Ruby
 ```ruby
-ruby problem_2/solution.rb
+$ ruby problem_2/solution.rb
        user     system      total        real
    0.000000   0.000000   0.000000 (  0.000009)
 # => Answer: 4613732
@@ -17,7 +17,7 @@ ruby problem_2/solution.rb
 
 ### Python
 ```python
-python problem_2/solution.py
+$ python problem_2/solution.py
 sum_even_fibonacci_numbers_1(): 0.000010 seconds
 sum_even_fibonacci_numbers_2(): 0.000003 seconds
 # => Answer: 4613732
