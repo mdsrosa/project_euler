@@ -1,4 +1,4 @@
-from timeit import timeit
+import time
 def sum_even_fibonacci_numbers_1():
     f1, f2, s, = 0, 1, 0,
     while f2 < 4000000:
@@ -15,5 +15,11 @@ def sum_even_fibonacci_numbers_2():
         b = a + c
         c = a + b
     return s
-print "sum_even_fibonacci_numbers_1: {0}".format(timeit("sum_even_fibonacci_numbers_1()", "from __main__ import sum_even_fibonacci_numbers_1;"))
-print "sum_even_fibonacci_numbers_2: {0}".format(timeit("sum_even_fibonacci_numbers_2()", "from __main__ import sum_even_fibonacci_numbers_2;"))
+t1 = time.time()
+sum_even_fibonacci_numbers_1()
+t2 = time.time()
+print "=> sum_even_fibonacci_numbers_1(): %fs" % (t2 - t1)
+t1 = time.time()
+sum_even_fibonacci_numbers_2()
+t2 = time.time()
+print "=> sum_even_fibonacci_numbers_2(): %fs" % (t2 - t1)
