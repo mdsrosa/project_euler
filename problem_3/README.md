@@ -11,3 +11,9 @@ ruby problem_3/solution.rb
    0.010000   0.000000   0.010000 (  0.003206)
 # => Answer: 6857
 ```
+### Python
+```python
+python problem_3/solution.py
+largest_prime_factor(600851475143, 0): 0.002024 s
+# => Answer: 6857
+```
