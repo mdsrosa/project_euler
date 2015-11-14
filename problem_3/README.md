@@ -14,6 +14,9 @@ $ ruby problem_3/solution.rb
 ### Python
 ```python
 $ python problem_3/solution.py
-largest_prime_factor(600851475143, 0): 0.002024 s
-# => Answer: 6857
+=> largest_prime_factor_1(600851475143, 0): 6857
+=> largest_prime_factor_1(600851475143, 0): 0.002232s
+================================================
+=> largest_prime_factor_2(600851475143): 6857
+=> largest_prime_factor_2(600851475143): 0.000785s
 ```
