@@ -17,12 +17,13 @@ t1 = time.time()
 largest_prime_factor_1(600851475143, 0)
 t2 = time.time()
 
-output_one = "=> largest_prime_factor_1(600851475143, 0): %s" % result
+output_one = "=> Result: %s" % result
 
+print "=> Solution 1"
 print output_one
-print "=> largest_prime_factor_1(600851475143, 0): %fs" % (t2 - t1)
+print "=> Time: %fs" % (t2 - t1)
 
-print "=" * len(output_one)
+print "=" * 30
 
 
 def largest_prime_factor_2(n):
@@ -39,5 +40,6 @@ t1 = time.time()
 output = largest_prime_factor_2(600851475143)
 t2 = time.time()
 
-print "=> largest_prime_factor_2(600851475143): %s" % output
-print "=> largest_prime_factor_2(600851475143): %fs" % (t2 - t1)
+print "=> Solution 2"
+print "=> Result: %s" % output
+print "=> Time: %fs" % (t2 - t1)
