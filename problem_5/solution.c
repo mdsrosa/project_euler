@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <time.h>
+
+clock_t begin, end;
+double time_spent;
 
 #define LIST_SIZE 20
 
@@ -32,6 +36,8 @@ unsigned long reduce(unsigned long (*f)(unsigned long, unsigned long), unsigned 
 }
 
 int main(int argc, char *argv[]){
+  begin = clock();
+
   int i, highest_number;
   unsigned long l[LIST_SIZE];
   unsigned long *list;
@@ -40,6 +46,13 @@ int main(int argc, char *argv[]){
     l[i] = i+1;
   }
   list = l;
-  printf("%ld\n", reduce(mmc, list));
+  unsigned long result = reduce(mmc, list);
+
+  end = clock();
+  time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+  printf("=> Result: %ld\n", result);
+  printf("=> Time: %fs\n", time_spent);
+
   return 0;
 }
