@@ -17,3 +17,11 @@ $ python problem_1/solution.py
 => Result: 233168
 => Time: 0.000330s
 ```
+
+### C
+```c
+$ gcc -o p1 problem_1/solution.c
+$ ./p1
+=> Result: 233168
+=> Time: 0.000010s
+```
