@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
+clock_t begin, end;
+double time_spent;
 
 void reverse_string(char *str){
     // skip null
@@ -36,6 +39,8 @@ int is_palindrome_number(int n){
 }
 
 int main(int argc, char *argv[]){
+  begin = clock();
+
   int x, y, v, largest_number;
   for(x = 100; x < 999; x++){
     for(y = 100; y < 999; y++){
@@ -47,5 +52,10 @@ int main(int argc, char *argv[]){
       }
     }
   }
-  printf("%d\n", largest_number);
+
+  end = clock();
+  time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+  printf("=> Result: %d\n", largest_number);
+  printf("=> Time: %fs\n", time_spent);
 }

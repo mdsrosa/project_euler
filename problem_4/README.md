@@ -20,3 +20,11 @@ $ python problem_4/solution.py
 => Result: 906609
 => Time: 0.081865s
 ```
+
+### C
+```c
+$ gcc -o p4 problem_4/solution.c
+$ ./p4
+=> Result: 906609
+=> Time: 0.013408s
+```
