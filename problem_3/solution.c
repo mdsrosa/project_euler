@@ -1,4 +1,10 @@
 #include <stdio.h>
+#include <time.h>
+
+clock_t begin, end;
+double time_spent;
+
+unsigned long result;
 
 void largest_prime_factor(unsigned long n, unsigned long highest_number){
   unsigned long d, i;
@@ -10,11 +16,18 @@ void largest_prime_factor(unsigned long n, unsigned long highest_number){
     }
   }
   if(d == 0L){
-    printf("%ld\n", highest_number);
+    result = highest_number;
   }
 }
 
 int main(int argc, char *argv[]){
-  unsigned long n = 600851475143L;
-  largest_prime_factor(n, 0L);
+  begin = clock();
+
+  largest_prime_factor(600851475143L, 0L);
+
+  end = clock();
+  time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+  printf("=> Result: %ld\n", result);
+  printf("=> Time: %fs\n", time_spent);
 }
