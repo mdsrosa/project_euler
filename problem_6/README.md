@@ -41,3 +41,10 @@ $ ./p6
 => Result: 25164150
 => Time: 0.000002s
 ```
+
+### Go
+```go
+$ go run problem_6/solution.go
+=> Result: 25164150
+=> Time: 0.00000250
+```
