@@ -29,3 +29,15 @@ $ python problem_6/solution.py
 => Result: 25164150
 => Time: 0.000020s
 ```
+
+### C
+```c
+$ gcc -o p6 problem_6/solution.c
+$ ./p6
+=> Solution 1
+=> Result: 25164150
+=> Time: 0.000010s
+=> Solution 2
+=> Result: 25164150
+=> Time: 0.000002s
+```
