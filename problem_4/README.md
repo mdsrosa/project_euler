@@ -28,3 +28,10 @@ $ ./p4
 => Result: 906609
 => Time: 0.013408s
 ```
+
+### Go
+```go
+$ go run problem_4/solution.go
+=> Result: 906609
+=> Time: 0.00294168
+```
