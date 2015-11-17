@@ -26,7 +26,7 @@ $ python problem_4/solution.py
 $ gcc -o p4 problem_4/solution.c
 $ ./p4
 => Result: 906609
-=> Time: 0.013408s
+=> Time: 0.008596s
 ```
 
 ### Go
