@@ -9,7 +9,7 @@ What is the 10 001st prime number?
 ```python
 $ python problem_7/solution.py
 => Result: 104743
-=> Time: 0.122479s
+=> Time: 0.105633s
 ```
 
 ### C
@@ -17,9 +17,8 @@ $ python problem_7/solution.py
 $ gcc -o p7 problem_7/solution.c
 $ ./p7
 => Result: 104743
-=> Time: 0.004052s
+=> Time: 0.003694s
 ```
-
 ### Ruby
 ```ruby
 $ ruby problem_7/solution.rb
