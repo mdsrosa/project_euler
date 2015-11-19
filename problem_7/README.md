@@ -22,7 +22,7 @@ $ ./p7
 
 ### Ruby
 ```ruby
-ruby problem_7/solution.rb
+$ ruby problem_7/solution.rb
        user     system      total        real
    0.020000   0.010000   0.030000   (0.026959)
 Answer: 104743
