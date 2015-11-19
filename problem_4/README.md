@@ -33,5 +33,5 @@ $ ./p4
 ```go
 $ go run problem_4/solution.go
 => Result: 906609
-=> Time: 0.00294168
+=> Time: 0.00144049
 ```
