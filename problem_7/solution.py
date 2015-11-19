@@ -16,12 +16,10 @@ def is_prime(n):
     elif n % 3 == 0:
         return False
     else:
-        result = math.floor(math.sqrt(n))
+        root = int(math.floor(math.sqrt(n)))
         f = 5
-        while f <= result:
-            if n % f == 0:
-                return False
-            if n % (f + 2) == 0:
+        while f <= root:
+            if n % f == 0 or n % (f + 2) == 0:
                 return False
             f += 6
         return True

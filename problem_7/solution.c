@@ -27,10 +27,7 @@ int is_prime(int n){
                         result = floor(sqrt(n));
                         f = 5;
                         while(f <= result){
-                            if(n % f == 0){
-                                return 0;
-                            }
-                            if(n % (f + 2) == 0){
+                            if(n % f == 0 || n % (f + 2) == 0){
                                 return 0;
                             }
                             f = f + 6;
