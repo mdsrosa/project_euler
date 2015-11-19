@@ -27,3 +27,10 @@ $ ruby problem_7/solution.rb
    0.020000   0.010000   0.030000   (0.026959)
 Answer: 104743
 ```
+
+### Go
+```go
+$ go run problem_7/solution.go
+=> Result: 104743
+=> Time: 0.02991401
+```
