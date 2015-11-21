@@ -11,8 +11,9 @@ def sum_multiple_of_three_and_five(max=999)
   end
 end
 
-require 'benchmark'
-Benchmark.bm do |x|
-  x.report { sum_multiple_of_three_and_five }
-end
-puts "Answer: #{sum_multiple_of_three_and_five}"
+before = Time.now
+result = sum_multiple_of_three_and_five
+elapsed = '%.6fs' % (Time.now - before).to_s
+
+puts "=> Result: #{result}"
+puts  "=> Time: #{elapsed}"

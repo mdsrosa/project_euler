@@ -12,8 +12,9 @@ def sum_even_fibonacci_numbers
   sum
 end
 
-require 'benchmark'
-Benchmark.bm do |x|
-  x.report { sum_even_fibonacci_numbers }
-end
-puts "Answer: #{ sum_even_fibonacci_numbers }"
+before = Time.now
+result = sum_even_fibonacci_numbers
+elapsed = '%.6fs' % (Time.now - before).to_s
+
+puts "=> Result: #{result}"
+puts  "=> Time: #{elapsed}"
