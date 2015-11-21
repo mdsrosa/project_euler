@@ -12,9 +12,8 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 ### Ruby
 ```ruby
 $ ruby problem_2/solution.rb
-       user     system      total        real
-   0.000000   0.000000   0.000000 (  0.000009)
-Answer: 4613732
+=> Result: 4613732
+=> Time: 0.000007s
 ```
 
 ### Python
