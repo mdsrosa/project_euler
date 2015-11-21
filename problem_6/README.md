@@ -15,12 +15,13 @@ Find the difference between the sum of the squares of the first one hundred natu
 ### Ruby
 ```ruby
 $ ruby problem_6/solution.rb
-user     system      total        real
-0.000000   0.000000   0.000000 (  0.000032)
-Answer: 25164150
-user     system      total        real
-0.000000   0.000000   0.000000 (  0.000005)
-Answer: 25164150
+=> Solution 1
+=> Result: 25164150
+=> Time: 0.000031s
+==============================
+=> Solution 2
+=> Result: 25164150
+=> Time: 0.000003s
 ```
 
 ### Python

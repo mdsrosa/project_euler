@@ -8,9 +8,8 @@ What is the smallest positive number that is evenly divisible by all of the numb
 ### Ruby
 ```ruby
 $ ruby problem_5/solution.rb
-user     system      total        real
-0.000000   0.000000   0.000000 (  0.000122)
-Answer: 232792560
+=> Result: 232792560
+=> Time: 0.000211s
 ```
 
 ### Python

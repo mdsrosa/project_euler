@@ -6,9 +6,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 ### Ruby
 ```ruby
-user     system      total        real
-0.000000   0.000000   0.000000   (0.000256)
-Answer: 233168
+$ ruby problem_1/solution.rb
+=> Result: 233168
+=> Time: 0.000210s
 ```
 
 ### Python

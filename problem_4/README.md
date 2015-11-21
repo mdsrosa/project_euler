@@ -9,9 +9,8 @@ A palindromic number reads the same both ways.The largest palindrome made from t
 ### Ruby
 ```ruby
 $ ruby problem_4/solution.rb
-       user     system      total        real
-   0.070000   0.000000   0.070000 (  0.075917)
-Answer: 906609
+=> Result: 906609
+=> Time: 0.078709s
 ```
 
 ### Python

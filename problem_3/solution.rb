@@ -1,16 +1,15 @@
-def largest_prime_factor(number, highest_number=0, printable=false)
+def largest_prime_factor(number=600851475143, highest_number=0)
   (2..number).each do |i|
     div, mod = number.divmod(i)
     if mod == 0
-      largest_prime_factor(div, i, printable)
+      largest_prime_factor(div, i)
       break
     end
   end
-  puts "Answer: #{highest_number}" if number == 1 && printable
+  puts "=> Result: #{highest_number}" if number == 1
 end
 
-require 'benchmark'
-Benchmark.bm do |x|
-  x.report { largest_prime_factor(600851475143) }
-end
-largest_prime_factor(600851475143, 0, true)
+before = Time.now
+largest_prime_factor
+elapsed = '%.6fs' % (Time.now - before).to_s
+puts  "=> Time: #{elapsed}"

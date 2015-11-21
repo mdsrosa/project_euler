@@ -19,12 +19,12 @@ $ ./p7
 => Result: 104743
 => Time: 0.003694s
 ```
+
 ### Ruby
 ```ruby
 $ ruby problem_7/solution.rb
-       user     system      total        real
-   0.020000   0.010000   0.030000   (0.026959)
-Answer: 104743
+=> Result: 104743
+=> Time: 0.027480s
 ```
 
 ### Go
