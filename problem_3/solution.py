@@ -1,11 +1,15 @@
-import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname('./')))
+from python.decorators import timeit
 
 result = None
 
 
+@timeit
 def largest_prime_factor_1(n, h):
     global result
-    for i in xrange(2, n+1):
+    for i in xrange(2, n + 1):
         d, m = divmod(n, i)
         if m == 0:
             largest_prime_factor_1(d, i)
@@ -13,19 +17,8 @@ def largest_prime_factor_1(n, h):
     if n == 1:
         result = h
 
-t1 = time.time()
-largest_prime_factor_1(600851475143, 0)
-t2 = time.time()
 
-output_one = "=> Result: %s" % result
-
-print "=> Solution 1"
-print output_one
-print "=> Time: %fs" % (t2 - t1)
-
-print "=" * 30
-
-
+@timeit
 def largest_prime_factor_2(n):
     roots, product, x, y = [], 1, 2, n
     while product != n:
@@ -36,10 +29,8 @@ def largest_prime_factor_2(n):
         x += 1
     return max(roots)
 
-t1 = time.time()
-output = largest_prime_factor_2(600851475143)
-t2 = time.time()
+print "=> Solution 1"
+largest_prime_factor_1(600851475143, 0)
 
 print "=> Solution 2"
-print "=> Result: %s" % output
-print "=> Time: %fs" % (t2 - t1)
+largest_prime_factor_2(600851475143)

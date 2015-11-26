@@ -1,15 +1,16 @@
-import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname('./')))
+from python.decorators import timeit
 
 
-def mdc(a, b):
-    while b:
-        a, b = b, a % b
-    return a
-mmc = lambda a, b: a * b / mdc(a, b)
+@timeit
+def get_result():
+    def mdc(a, b):
+        while b:
+            a, b = b, a % b
+        return a
+    mmc = lambda a, b: a * b / mdc(a, b)
+    return reduce(mmc, xrange(2, 20))
 
-t1 = time.time()
-output = reduce(mmc, xrange(2, 20))
-t2 = time.time()
-
-print "=> Result: %s" % output
-print "=> Time: %fs" % (t2 - t1)
+get_result()

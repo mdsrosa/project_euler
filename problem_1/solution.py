@@ -1,6 +1,10 @@
-import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname('./')))
+from python.decorators import timeit
 
 
+@timeit
 def sum_multiples_of(n1, n2, x):
     def divisible_by(y, z):
         return y % z == 0
@@ -10,9 +14,4 @@ def sum_multiples_of(n1, n2, x):
             n.add(i)
     return sum(n)
 
-t1 = time.time()
-output = sum_multiples_of(3, 5, 1000)
-t2 = time.time()
-
-print "=> Result: %s" % output
-print "=> Time: %fs" % (t2 - t1)
+sum_multiples_of(3, 5, 1000)

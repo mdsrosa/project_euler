@@ -1,6 +1,10 @@
-import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname('./')))
+from python.decorators import timeit
 
 
+@timeit
 def sum_even_fibonacci_numbers_1():
     f1, f2, s, = 0, 1, 0,
     while f2 < 4000000:
@@ -10,6 +14,7 @@ def sum_even_fibonacci_numbers_1():
     return s
 
 
+@timeit
 def sum_even_fibonacci_numbers_2():
     s, a, b = 0, 1, 1
     c = a + b
@@ -19,18 +24,9 @@ def sum_even_fibonacci_numbers_2():
         b = a + c
         c = a + b
     return s
-t1 = time.time()
-output = sum_even_fibonacci_numbers_1()
-t2 = time.time()
 
 print "=> Solution 1"
-print "=> Result: %s" % output
-print "=> Time: %fs" % (t2 - t1)
-
-t1 = time.time()
-output = sum_even_fibonacci_numbers_2()
-t2 = time.time()
+sum_even_fibonacci_numbers_1()
 
 print "=> Solution 2"
-print "=> Result: %s" % output
-print "=> Time: %fs" % (t2 - t1)
+sum_even_fibonacci_numbers_2()
