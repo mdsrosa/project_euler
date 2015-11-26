@@ -14,13 +14,9 @@ def diff_between_sum_of_the_square_and_square_of_the_sums_1
   (square_of_the_sums - sum_of_the_squares).abs
 end
 
-before = Time.now
-result = diff_between_sum_of_the_square_and_square_of_the_sums_1
-elapsed = '%.6fs' % (Time.now - before).to_s
-
+require './ruby/benchmark'
 puts "=> Solution 1"
-puts "=> Result: #{result}"
-puts  "=> Time: #{elapsed}"
+ProjectEuller::RubyBenchmark.run { diff_between_sum_of_the_square_and_square_of_the_sums_1 }
 
 puts "=============================="
 
@@ -38,10 +34,6 @@ def diff_between_sum_of_the_square_and_square_of_the_sums_2
   (square_of_the_sums_gauss - sum_of_the_squares_using_difference).abs
 end
 
-before = Time.now
-result = diff_between_sum_of_the_square_and_square_of_the_sums_2
-elapsed = '%.6fs' % (Time.now - before).to_s
-
+require './ruby/benchmark'
 puts "=> Solution 2"
-puts "=> Result: #{result}"
-puts  "=> Time: #{elapsed}"
+ProjectEuller::RubyBenchmark.run { diff_between_sum_of_the_square_and_square_of_the_sums_2 }

@@ -7,9 +7,5 @@ def smallest_positive_number_divisible_by_range(start_value=1, end_value=20)
   primes.reduce(1){ |mem, value| mem *= value[0] ** value[1] }
 end
 
-before = Time.now
-result = smallest_positive_number_divisible_by_range
-elapsed = '%.6fs' % (Time.now - before).to_s
-
-puts "=> Result: #{result}"
-puts  "=> Time: #{elapsed}"
+require './ruby/benchmark'
+ProjectEuller::RubyBenchmark.run { smallest_positive_number_divisible_by_range }

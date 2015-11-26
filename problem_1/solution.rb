@@ -11,9 +11,5 @@ def sum_multiple_of_three_and_five(max=999)
   end
 end
 
-before = Time.now
-result = sum_multiple_of_three_and_five
-elapsed = '%.6fs' % (Time.now - before).to_s
-
-puts "=> Result: #{result}"
-puts  "=> Time: #{elapsed}"
+require './ruby/benchmark'
+ProjectEuller::RubyBenchmark.run { sum_multiple_of_three_and_five }
