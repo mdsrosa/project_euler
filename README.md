@@ -15,6 +15,7 @@ Problem  | Python   | Ruby |C  |Go
 [#5](https://github.com/mdsrosa/project_euler/blob/master/problem_5/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_5/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_5/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_5/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_5/solution.go)
 [#6](https://github.com/mdsrosa/project_euler/blob/master/problem_6/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_6/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_6/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_6/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_6/solution.go)
 [#7](https://github.com/mdsrosa/project_euler/blob/master/problem_7/README.md) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_7/solution.py)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_7/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_7/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_7/solution.go)
+[#8](https://github.com/mdsrosa/project_euler/blob/master/problem_8/README.md) |`NIY`|[Solution](https://github.com/mdsrosa/project_euler/blob/master/problem_8/solution.rb) |`NIY`|`NIY`
 
 # Contributing with your solution
 
