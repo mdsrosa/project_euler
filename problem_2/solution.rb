@@ -12,9 +12,5 @@ def sum_even_fibonacci_numbers
   sum
 end
 
-before = Time.now
-result = sum_even_fibonacci_numbers
-elapsed = '%.6fs' % (Time.now - before).to_s
-
-puts "=> Result: #{result}"
-puts  "=> Time: #{elapsed}"
+require './ruby/benchmark'
+ProjectEuller::RubyBenchmark.run { sum_even_fibonacci_numbers }

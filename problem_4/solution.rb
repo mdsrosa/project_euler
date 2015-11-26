@@ -18,9 +18,5 @@ def largest_palindrome_from_the_product_of_three_digit_numbers
   highest_palindrome
 end
 
-before = Time.now
-result = largest_palindrome_from_the_product_of_three_digit_numbers
-elapsed = '%.6fs' % (Time.now - before).to_s
-
-puts "=> Result: #{result}"
-puts  "=> Time: #{elapsed}"
+require './ruby/benchmark'
+ProjectEuller::RubyBenchmark.run { largest_palindrome_from_the_product_of_three_digit_numbers }
