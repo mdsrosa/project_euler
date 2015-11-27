@@ -32,4 +32,9 @@ $ ruby problem_8/solution.rb
 => Result: 23514624000
 => Time: 0.004709s
 ```
-
+### Python
+```
+$ python problem_8/solution.py
+=> Result: 23514624000
+=> Time: 0.002922s
+```
