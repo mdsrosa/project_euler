@@ -1,4 +1,8 @@
-import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname('./')))
+from python.decorators import timeit
+
 import math
 
 LIMIT = 10001
@@ -25,6 +29,7 @@ def is_prime(n):
         return True
 
 
+@timeit
 def find_10001st_prime():
     number = 1
     counter = 2  # two is prime
@@ -34,9 +39,5 @@ def find_10001st_prime():
             counter += 1
     return number
 
-t1 = time.time()
-result = find_10001st_prime()
-t2 = time.time()
 
-print "=> Result: %d" % result
-print "=> Time: %fs" % (t2 - t1)
+find_10001st_prime()

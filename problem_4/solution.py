@@ -1,10 +1,14 @@
-import time
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname('./')))
+from python.decorators import timeit
 
 
 def is_palindrome_number(n):
     return n == n[::-1]
 
 
+@timeit
 def largest_palindrome_from_the_product_of_three_digit_numbers():
     largest_number = 0
     for x in xrange(100, 999):
@@ -15,10 +19,5 @@ def largest_palindrome_from_the_product_of_three_digit_numbers():
                     largest_number = v
     return largest_number
 
-t1 = time.time()
-output = largest_palindrome_from_the_product_of_three_digit_numbers()
-t2 = time.time()
 
-
-print "=> Result: %s" % output
-print "=> Time: %fs" % (t2 - t1)
+largest_palindrome_from_the_product_of_three_digit_numbers()
