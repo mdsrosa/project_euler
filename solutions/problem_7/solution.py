@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.dirname('./')))
+sys.path.append(os.path.abspath(os.path.dirname('./utils/python')))
 from python.decorators import timeit
 
 import math
