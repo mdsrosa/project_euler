@@ -18,5 +18,5 @@ def thirteen_adjacent_digits_with_the_greatest_product
   products_hash.values.max
 end
 
-require './ruby/benchmark'
+require './utils/ruby/benchmark'
 ProjectEuller::RubyBenchmark.run { thirteen_adjacent_digits_with_the_greatest_product }

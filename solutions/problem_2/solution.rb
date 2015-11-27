@@ -12,5 +12,5 @@ def sum_even_fibonacci_numbers
   sum
 end
 
-require './ruby/benchmark'
+require './utils/ruby/benchmark'
 ProjectEuller::RubyBenchmark.run { sum_even_fibonacci_numbers }

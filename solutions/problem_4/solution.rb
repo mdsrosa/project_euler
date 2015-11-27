@@ -18,5 +18,5 @@ def largest_palindrome_from_the_product_of_three_digit_numbers
   highest_palindrome
 end
 
-require './ruby/benchmark'
+require './utils/ruby/benchmark'
 ProjectEuller::RubyBenchmark.run { largest_palindrome_from_the_product_of_three_digit_numbers }

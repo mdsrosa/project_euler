@@ -9,5 +9,5 @@ def largest_prime_factor(number=600851475143, highest_number=0)
   puts "=> Result: #{highest_number}" if number == 1
 end
 
-require './ruby/benchmark'
+require './utils/ruby/benchmark'
 ProjectEuller::RubyBenchmark.run { largest_prime_factor }
