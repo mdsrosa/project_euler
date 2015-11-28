@@ -30,7 +30,7 @@ def is_prime(n):
 
 
 @timeit
-def find_10001st_prime():
+def solution():
     number = 1
     counter = 2  # two is prime
     while (counter <= LIMIT):
@@ -40,4 +40,4 @@ def find_10001st_prime():
     return number
 
 
-find_10001st_prime()
+solution()

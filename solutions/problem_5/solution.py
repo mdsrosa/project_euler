@@ -5,7 +5,7 @@ from python.decorators import timeit
 
 
 @timeit
-def get_result():
+def solution():
     def mdc(a, b):
         while b:
             a, b = b, a % b
@@ -13,4 +13,4 @@ def get_result():
     mmc = lambda a, b: a * b / mdc(a, b)
     return reduce(mmc, xrange(2, 20))
 
-get_result()
+solution()

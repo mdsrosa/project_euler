@@ -7,7 +7,7 @@ import math
 
 
 @timeit
-def diff_between_sum_of_the_naturals_squared_and_square_of_the_sum():
+def solution():
     sum_of_naturals_squared = 0
     square_of_the_sum = ((100 * (100 + 1)) / 2) ** 2
     for x in xrange(1, 101):
@@ -15,4 +15,4 @@ def diff_between_sum_of_the_naturals_squared_and_square_of_the_sum():
     return math.fabs(sum_of_naturals_squared - square_of_the_sum)
 
 
-diff_between_sum_of_the_naturals_squared_and_square_of_the_sum()
+solution()
