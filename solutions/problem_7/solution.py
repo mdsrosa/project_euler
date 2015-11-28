@@ -3,8 +3,6 @@ import os
 sys.path.append(os.path.abspath(os.path.dirname('./utils/python')))
 from python.utils import timeit, is_prime
 
-import math
-
 LIMIT = 10001
 
 @timeit
