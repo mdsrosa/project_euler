@@ -10,8 +10,11 @@ Find the sum of all the primes below two million.
 $ python solutions/problem_10/solution.py
 => Solution 1
 => Result: 142913828922
-=> Time: 6.251844s
+=> Time: 6.019284s
 => Solution 2
 => Result: 142913828922
-=> Time: 5.941850s
+=> Time: 5.667188s
+=> Solution 3
+=> Result: 142913828922
+=> Time: 0.881891s
 ```
