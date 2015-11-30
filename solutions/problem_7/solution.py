@@ -1,36 +1,12 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.dirname('./utils/python')))
-from python.decorators import timeit
-
-import math
+from python.utils import timeit, is_prime
 
 LIMIT = 10001
 
-
-def is_prime(n):
-    if n == 1:
-        return False
-    elif n < 4:
-        return True
-    elif n % 2 == 0:
-        return False
-    elif n < 9:
-        return True
-    elif n % 3 == 0:
-        return False
-    else:
-        root = int(math.floor(math.sqrt(n)))
-        f = 5
-        while f <= root:
-            if n % f == 0 or n % (f + 2) == 0:
-                return False
-            f += 6
-        return True
-
-
 @timeit
-def find_10001st_prime():
+def solution():
     number = 1
     counter = 2  # two is prime
     while (counter <= LIMIT):
@@ -40,4 +16,4 @@ def find_10001st_prime():
     return number
 
 
-find_10001st_prime()
+solution()

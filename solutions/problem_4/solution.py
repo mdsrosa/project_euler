@@ -9,7 +9,7 @@ def is_palindrome_number(n):
 
 
 @timeit
-def largest_palindrome_from_the_product_of_three_digit_numbers():
+def solution():
     largest_number = 0
     for x in xrange(100, 999):
         for y in xrange(100, 999):
@@ -20,4 +20,4 @@ def largest_palindrome_from_the_product_of_three_digit_numbers():
     return largest_number
 
 
-largest_palindrome_from_the_product_of_three_digit_numbers()
+solution()

@@ -5,7 +5,7 @@ from python.decorators import timeit
 
 
 @timeit
-def sum_even_fibonacci_numbers_1():
+def solution_1():
     f1, f2, s, = 0, 1, 0,
     while f2 < 4000000:
         f2, f1 = f1, f1 + f2
@@ -15,7 +15,7 @@ def sum_even_fibonacci_numbers_1():
 
 
 @timeit
-def sum_even_fibonacci_numbers_2():
+def solution_2():
     s, a, b = 0, 1, 1
     c = a + b
     while c < 4000000:
@@ -26,7 +26,7 @@ def sum_even_fibonacci_numbers_2():
     return s
 
 print "=> Solution 1"
-sum_even_fibonacci_numbers_1()
+solution_1()
 
 print "=> Solution 2"
-sum_even_fibonacci_numbers_2()
+solution_2()
