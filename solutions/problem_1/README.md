@@ -27,7 +27,8 @@ $ ./p1
 ```
 
 ### Clojure
-```
-=> Time: 0.002796032s
+```clojure
+$ lein exec solution.clj
 => Result: 233168
+=> Time: 0.002796032s
 ```
