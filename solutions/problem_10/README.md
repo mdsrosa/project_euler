@@ -30,3 +30,10 @@ $ ./p10
 => Result: 142913828922
 => Time: 0.199444s
 ```
+
+### Ruby
+```ruby
+$ ruby solutions/problem_10/solution.rb
+=> Result: 142913828922
+=> Time: 0.313431s
+```
