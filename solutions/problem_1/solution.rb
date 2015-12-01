@@ -12,4 +12,4 @@ def sum_multiple_of_three_and_five(max=999)
 end
 
 require './utils/ruby/benchmark'
-ProjectEuller::RubyBenchmark.run { sum_multiple_of_three_and_five }
+ProjectEuler::RubyBenchmark.run { sum_multiple_of_three_and_five }

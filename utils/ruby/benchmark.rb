@@ -1,4 +1,4 @@
-module ProjectEuller
+module ProjectEuler
   class RubyBenchmark
 
     def self.run(&block)

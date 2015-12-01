@@ -8,4 +8,4 @@ def primes_sum_under_two_million
 end
 
 require './utils/ruby/benchmark'
-ProjectEuller::RubyBenchmark.run { primes_sum_under_two_million }
+ProjectEuler::RubyBenchmark.run { primes_sum_under_two_million }

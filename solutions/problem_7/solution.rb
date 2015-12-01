@@ -5,4 +5,4 @@ def the_10001_st_prime_number
 end
 
 require './utils/ruby/benchmark'
-ProjectEuller::RubyBenchmark.run { the_10001_st_prime_number }
+ProjectEuler::RubyBenchmark.run { the_10001_st_prime_number }

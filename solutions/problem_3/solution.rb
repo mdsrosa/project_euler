@@ -10,4 +10,4 @@ def largest_prime_factor(number=600851475143, highest_number=0)
 end
 
 require './utils/ruby/benchmark'
-ProjectEuller::RubyBenchmark.run { largest_prime_factor }
+ProjectEuler::RubyBenchmark.run { largest_prime_factor }

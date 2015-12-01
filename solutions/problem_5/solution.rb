@@ -8,4 +8,4 @@ def smallest_positive_number_divisible_by_range(start_value=1, end_value=20)
 end
 
 require './utils/ruby/benchmark'
-ProjectEuller::RubyBenchmark.run { smallest_positive_number_divisible_by_range }
+ProjectEuler::RubyBenchmark.run { smallest_positive_number_divisible_by_range }
