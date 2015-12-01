@@ -22,7 +22,7 @@ $ python problem_4/solution.py
 
 ### C
 ```c
-$ gcc -o p4 problem_4/solution.c
+$ gcc -o p4 solutions/problem_4/solution.c utils/c/utils.c -I./utils/c
 $ ./p4
 => Result: 906609
 => Time: 0.008596s
