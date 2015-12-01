@@ -14,7 +14,7 @@ $ python problem_7/solution.py
 
 ### C
 ```c
-$ gcc -o p7 problem_7/solution.c
+$ gcc -o p7 solutions/problem_7/solution.c utils/c/utils.c -I./utils/c
 $ ./p7
 => Result: 104743
 => Time: 0.003694s

@@ -33,7 +33,7 @@ $ python problem_6/solution.py
 
 ### C
 ```c
-$ gcc -o p6 problem_6/solution.c
+$ gcc -o p6 solutions/problem_6/solution.c utils/c/utils.c -I./utils/c
 $ ./p6
 => Solution 1
 => Result: 25164150

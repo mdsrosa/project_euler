@@ -29,7 +29,7 @@ $ python problem_2/solution.py
 
 ### C
 ```c
-$ gcc -o p2 problem_2/solution.c
+$ gcc -o p2 solutions/problem_2/solution.c utils/c/utils.c -I./utils/c
 $ ./p2
 => Result: 4613732
 => Time: 0.000002s
