@@ -21,10 +21,10 @@ $ python problem_5/solution.py
 
 ### C
 ```c
-$ gcc -o p5 problem_5/solution.c
+$ gcc -o p5 solutions/problem_5/solution.c utils/c/utils.c -I./utils/c
 $ ./p5
 => Result: 232792560
-=> Time: 0.000003s
+=> Time: 0.000001s
 ```
 
 ### Go
