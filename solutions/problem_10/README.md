@@ -18,3 +18,10 @@ $ python solutions/problem_10/solution.py
 => Result: 142913828922
 => Time: 0.881891s
 ```
+
+### C
+```bash
+$ gcc -o p10 solutions/problem_10/solution.c utils/c/utils.c -I./utils/c
+=> Result: 142913828922
+=> Time: 0.213827s
+```
