@@ -19,4 +19,4 @@ def thirteen_adjacent_digits_with_the_greatest_product
 end
 
 require './utils/ruby/benchmark'
-ProjectEuller::RubyBenchmark.run { thirteen_adjacent_digits_with_the_greatest_product }
+ProjectEuler::RubyBenchmark.run { thirteen_adjacent_digits_with_the_greatest_product }

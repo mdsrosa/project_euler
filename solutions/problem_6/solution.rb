@@ -16,7 +16,7 @@ end
 
 require './utils/ruby/benchmark'
 puts "=> Solution 1"
-ProjectEuller::RubyBenchmark.run { diff_between_sum_of_the_square_and_square_of_the_sums_1 }
+ProjectEuler::RubyBenchmark.run { diff_between_sum_of_the_square_and_square_of_the_sums_1 }
 
 puts "=============================="
 
@@ -36,4 +36,4 @@ end
 
 require './utils/ruby/benchmark'
 puts "=> Solution 2"
-ProjectEuller::RubyBenchmark.run { diff_between_sum_of_the_square_and_square_of_the_sums_2 }
+ProjectEuler::RubyBenchmark.run { diff_between_sum_of_the_square_and_square_of_the_sums_2 }
