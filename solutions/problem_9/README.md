@@ -30,3 +30,11 @@ $ go run solutions/problem_9/solution.go
 => Result: 31875000
 => Time: 0.05498431
 ```
+
+### C
+```c
+$ gcc -o p9 solutions/problem_9/solution.c utils/c/utils.c -I./utils/c
+$ ./p9
+=> Result: 31875000
+=> Time: 0.024204s
+```
