@@ -28,7 +28,7 @@ $ ruby solutions/problem_9/solution.rb
 ```go
 $ go run solutions/problem_9/solution.go
 => Result: 31875000
-=> Time: 0.05498431
+=> Time: 0.05498431s
 ```
 
 ### C

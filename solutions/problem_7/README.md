@@ -31,5 +31,5 @@ $ ruby problem_7/solution.rb
 ```go
 $ go run problem_7/solution.go
 => Result: 104743
-=> Time: 0.02991401
+=> Time: 0.02991401s
 ```

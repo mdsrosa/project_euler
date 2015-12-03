@@ -43,8 +43,8 @@ $ ruby solutions/problem_10/solution.rb
 $ go run solutions/problem_10/solution.go
 => Solution 1
 => Result: 142913828922
-=> Time: 1.86870906
+=> Time: 1.86870906s
 => Solution 2
 => Result: 142913828922
-=> Time: 0.01212658
+=> Time: 0.01212658s
 ```

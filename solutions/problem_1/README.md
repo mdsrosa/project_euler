@@ -32,3 +32,10 @@ $ lein exec solution.clj
 => Result: 233168
 => Time: 0.002796032s
 ```
+
+### Go
+```go
+$ go run solutions/problem_1/solution.go
+=> Result: 233168
+=> Time: 0.00001836s
+```
