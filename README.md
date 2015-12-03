@@ -19,12 +19,57 @@ Problem  | Python   | Ruby |C  |Go |Clojure
 [#9](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/README.md) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.py) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.rb) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.c)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.go) |`NIY`
 [#10](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/README.md) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.py) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.rb) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.c) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.go) | `NIY`
 
+
 # Contributing with your solution
 
+### Structure
+
+Your solution file must be called `solution` and must be under `solutions/problem_[problem number]/`.
+If you need to create a `utils` file put it under `utils/[language]`.
+
+### Commit messages
+
+We use the following standard commit message:
+
+`Add [LANGUAGE] solution for problem [PROBLEM NUMBER]`
+
+If you implemented a solution using a another language, then the commit message should be:
+`Add [LANGUAGE] implementation of [THE OTHER LANGUAGE] solution for problem [PROBLEM NUMBER]`
+
+LANGUAGE = The programming language you used to implement the solution.
+
+PROBLEM NUMBER = The number of the problem that you solved.
+
+### Output format
+The standard output for every implementation should be:
+
+
+__*Time* should be in seconds.__
+
+```
+  => Result: 00000
+  => Time: 0.0000s
+```
+
+In case of multiples solutions:
+```
+  => Solution 1
+  => Result: 00000
+  => Time: 0.0000s
+  => Solution 2
+  => Result: 00000
+  => Time: 0.0000s
+  ...
+```
+
+### Pushing to the Github repository
 1. Fork it (https://github.com/mdsrosa/project_euler/fork)
-2. Create your feature branch (`git checkout -b github-username/my-solution`)
-3. Commit your changes (`git commit -am 'Add [LANGUAGE USED] solution for problem X'`)
-4. Push to the branch (`git push origin github-username/my-solution`)
+2. Create your solution branch
+  `git checkout -b username/add-[LANGUAGE]-solution-problem-[PROBLEM NUMBER]`
+3. Commit your changes
+  `git commit -am 'Add [LANGUAGE] solution for problem [PROBLEM NUMBER]'`
+4. Push to the branch
+  `git push origin username/add-[LANGUAGE]-solution-problem-[PROBLEM NUMBER]`
 5. Create a new Pull Request
 
 # License
