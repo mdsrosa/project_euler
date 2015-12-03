@@ -42,5 +42,5 @@ func main() {
   result := The10001StPrimeNumber()
   elapsed := time.Since(start)
   fmt.Printf("=> Result: %d\n", result)
-  fmt.Printf("=> Time: %.8f\n", elapsed.Seconds())
+  fmt.Printf("=> Time: %.8fs\n", elapsed.Seconds())
 }

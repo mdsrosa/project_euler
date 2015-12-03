@@ -24,5 +24,5 @@ func main() {
   result := SumMultipleOfThreeAndFive()
   elapsed := time.Since(start)
   fmt.Printf("=> Result: %d\n", result)
-  fmt.Printf("=> Time: %.8f\n", elapsed.Seconds())
+  fmt.Printf("=> Time: %.8fs\n", elapsed.Seconds())
 }

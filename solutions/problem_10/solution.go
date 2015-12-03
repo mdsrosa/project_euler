@@ -56,12 +56,12 @@ func main() {
   elapsed := time.Since(start)
   fmt.Println("=> Solution 1")
   fmt.Printf("=> Result: %d\n", result)
-  fmt.Printf("=> Time: %.8f\n", elapsed.Seconds())
+  fmt.Printf("=> Time: %.8fs\n", elapsed.Seconds())
 
   start2 := time.Now()
   result2 := SumFirstTwoMillionPrimeNumbers2()
   elapsed2 := time.Since(start2)
   fmt.Println("=> Solution 2")
   fmt.Printf("=> Result: %d\n", result2)
-  fmt.Printf("=> Time: %.8f\n", elapsed2.Seconds())
+  fmt.Printf("=> Time: %.8fs\n", elapsed2.Seconds())
 }

@@ -47,5 +47,5 @@ $ ./p6
 ```go
 $ go run problem_6/solution.go
 => Result: 25164150
-=> Time: 0.00000250
+=> Time: 0.00000250s
 ```
