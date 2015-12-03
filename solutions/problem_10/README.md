@@ -37,3 +37,14 @@ $ ruby solutions/problem_10/solution.rb
 => Result: 142913828922
 => Time: 0.313431s
 ```
+
+### Go
+```go
+$ go run solutions/problem_10/solution.go
+=> Solution 1
+=> Result: 142913828922
+=> Time: 1.86870906
+=> Solution 2
+=> Result: 142913828922
+=> Time: 0.01212658
+```
