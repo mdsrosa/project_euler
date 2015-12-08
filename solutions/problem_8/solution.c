@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "utils.h"
 
 #define LENGTH 1000
