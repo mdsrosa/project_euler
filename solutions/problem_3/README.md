@@ -31,3 +31,14 @@ $ ./p3
 => Result: 6857
 => Time: 0.000144s
 ```
+
+### Go
+```go
+$ go run solutions/problem_3/solution.go
+=> Solution 1
+=> Result 6857
+=> Time: 0.00024261s
+=> Solution 2
+=> Result: 6857
+=> Time: 1.79113150s
+```
