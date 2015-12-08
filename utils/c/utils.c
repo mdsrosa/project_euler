@@ -21,6 +21,21 @@ int int_time_it(int f()){
     return 0;
 }
 
+long long_time_it(long f()){
+    clock_t begin, end;
+    double time_spent;
+
+    begin = clock();
+    long output = f();
+    end = clock();
+    time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+    printf("=> Result: %ld\n", output);
+    printf("=> Time: %fs\n", time_spent);
+
+    return 0;
+}
+
 double double_time_it(double f()){
     clock_t begin, end;
     double time_spent;
