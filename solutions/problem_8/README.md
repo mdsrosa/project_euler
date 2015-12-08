@@ -38,3 +38,11 @@ $ python problem_8/solution.py
 => Result: 23514624000
 => Time: 0.002922s
 ```
+
+### C
+```
+$ gcc -o p8 solutions/problem_8/solution.c utils/c/utils.c -I./utils/c
+$ ./p8
+=> Result: 23514624000
+=> Time: 0.000034s
+```
