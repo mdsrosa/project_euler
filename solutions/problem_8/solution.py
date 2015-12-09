@@ -12,7 +12,7 @@ def solution():
 
     y = 13
     numbers_without_zero = deque()
-    
+
     for x in xrange(len(NUMBER)):
         number = NUMBER[x:y]
         if '0' not in number:
@@ -22,7 +22,7 @@ def solution():
     max_result = 0
 
     for number in numbers_without_zero:
-        result = reduce(lambda x, y: x*y, map(int, list(number)))
+        result = reduce(lambda x, y: x * y, map(int, list(number)))
         if result > max_result:
             max_result = result
 
