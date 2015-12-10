@@ -43,7 +43,14 @@ $ go run solutions/problem_1/solution.go
 
 ### Perl
 ```perl
-$ perl solutions/problem_1/solutions.pl
+$ perl solutions/problem_1/solution.pl
 => Result: 233168
 => Time: 0.000728s
+```
+
+### C++
+```cpp
+$ g++ -o p1 solutions/problem_1/solution.cpp
+=> Result: 233168
+=> Time: 0.000009s
 ```
