@@ -1,17 +1,16 @@
 use Time::HiRes qw( time );
-
 sub solution {
-	my ($sum, $a, $b) = (0, 1, 1);
-	my $c = $a + $b;
+  my ($sum, $a, $b) = (0, 1, 1);
+  my $c = $a + $b;
 
-	while($c < 4_000_000){
-		$sum += $c;
-		$a = $b + $c;
-		$b = $a + $c;
-		$c = $a + $b;
-	}
+  while($c < 4_000_000){
+    $sum += $c;
+    $a = $b + $c;
+    $b = $a + $c;
+    $c = $a + $b;
+  }
 
-	$sum;
+  $sum;
 }
 
 my $start = time();
