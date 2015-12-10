@@ -45,3 +45,10 @@ $ go run solutions/problem_2/solution.go
 => Result: 4613732
 => Time: 0.00000014
 ```
+
+### Perl
+```perl
+$ perl solutions/problem_2/solution.pl
+=> Result: 4613732
+=> Time: 0.000006s
+```
