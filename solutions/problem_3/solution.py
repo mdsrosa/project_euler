@@ -2,11 +2,11 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.dirname('./utils/python')))
 from python.utils import timeit
+import time
 
 result = None
 
 
-@timeit
 def solution_1(n, h):
     global result
     for i in xrange(2, n + 1):
@@ -30,7 +30,11 @@ def solution_2(n):
     return max(roots)
 
 print "=> Solution 1"
+start = time.time()
 solution_1(600851475143, 0)
+end = time.time()
+print "=> Result: ", result
+print "=> Time: %fs" % (end - start)
 
 print "=> Solution 2"
 solution_2(600851475143)
