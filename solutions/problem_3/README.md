@@ -7,13 +7,13 @@ What is the largest prime factor of the number 600851475143?
 # Benchmarks
 
 ### Ruby
-```ruby
+```
 $ ruby problem_3/solution.rb
 => Result: 6857
 => Time: 0.006299s
 ```
 ### Python
-```python
+```
 $ python problem_3/solution.py
 => Solution 1
 => Result: 6857
@@ -25,7 +25,7 @@ $ python problem_3/solution.py
 ```
 
 ### C
-```c
+```
 $ gcc -o p3 problem_3/solution.c
 $ ./p3
 => Result: 6857
@@ -33,7 +33,7 @@ $ ./p3
 ```
 
 ### Go
-```go
+```
 $ go run solutions/problem_3/solution.go
 => Solution 1
 => Result 6857
@@ -41,4 +41,11 @@ $ go run solutions/problem_3/solution.go
 => Solution 2
 => Result: 6857
 => Time: 1.79113150s
+```
+
+### Perl
+```
+$ perl solutions/problem_3/solution.pl
+=> Result: 6857
+=> Time: 0.004418s
 ```
