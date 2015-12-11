@@ -59,3 +59,18 @@ $ g++ -o p2 solutions/problem_2/solution.cpp
 $ ./p2
 => Result: 4613732
 => Time: 0.000001s
+```
+
+### Javascript
+```
+$ node solutions/problem_2/solution.js
+
+Solution 1
+=> Result: 4613732
+=> Time: 0.0000552s
+Solution 2
+=> Result: 4613732
+=> Time: 0.0000077s
+```
+
+
