@@ -55,3 +55,10 @@ $ ./p1
 => Result: 233168
 => Time: 0.000009s
 ```
+
+### Javascript
+```javascript
+$ node solutions/problem_1/solutions.js
+=> Result: 233168
+=> Time: 0.001s
+```
