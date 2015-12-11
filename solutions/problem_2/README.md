@@ -10,14 +10,14 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 # Benchmarks
 
 ### Ruby
-```ruby
+```
 $ ruby problem_2/solution.rb
 => Result: 4613732
 => Time: 0.000007s
 ```
 
 ### Python
-```python
+```
 $ python problem_2/solution.py
 => Solution 1
 => Result: 4613732
@@ -28,7 +28,7 @@ $ python problem_2/solution.py
 ```
 
 ### C
-```c
+```
 $ gcc -o p2 solutions/problem_2/solution.c utils/c/utils.c -I./utils/c
 $ ./p2
 => Result: 4613732
@@ -36,7 +36,7 @@ $ ./p2
 ```
 
 ### Go
-```go
+```
 $ go run solutions/problem_2/solution.go
 => Solution 1
 => Result: 4613732
@@ -47,8 +47,15 @@ $ go run solutions/problem_2/solution.go
 ```
 
 ### Perl
-```perl
+```
 $ perl solutions/problem_2/solution.pl
 => Result: 4613732
 => Time: 0.000006s
 ```
+
+### C++
+```
+$ g++ -o p2 solutions/problem_2/solution.cpp
+$ ./p2
+=> Result: 4613732
+=> Time: 0.000001s

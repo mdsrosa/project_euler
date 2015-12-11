@@ -5,21 +5,21 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 # Benchmarks
 
 ### Ruby
-```ruby
+```
 $ ruby problem_1/solution.rb
 => Result: 233168
 => Time: 0.000210s
 ```
 
 ### Python
-```python
+```
 $ python problem_1/solution.py
 => Result: 233168
 => Time: 0.000330s
 ```
 
 ### C
-```c
+```
 $ gcc -o p1 solutions/problem_1/solution.c utils/c/utils.c -I./utils/c
 $ ./p1
 => Result: 233168
@@ -27,14 +27,14 @@ $ ./p1
 ```
 
 ### Clojure
-```clojure
+```
 $ lein exec solution.clj
 => Result: 233168
 => Time: 0.002796032s
 ```
 
 ### Go
-```go
+```
 $ go run solutions/problem_1/solution.go
 => Result: 233168
 => Time: 0.00001836s
@@ -42,8 +42,16 @@ $ go run solutions/problem_1/solution.go
 
 
 ### Perl
-```perl
-$ perl solutions/problem_1/solutions.pl
+```
+$ perl solutions/problem_1/solution.pl
 => Result: 233168
 => Time: 0.000728s
+```
+
+### C++
+```
+$ g++ -o p1 solutions/problem_1/solution.cpp
+$ ./p1
+=> Result: 233168
+=> Time: 0.000009s
 ```
