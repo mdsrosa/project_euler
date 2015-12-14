@@ -1,8 +1,9 @@
 module.exports = function (callback) {
-	var ftime  = new Date(),
-	 		result = callback(),
-		  stime  = new Date();
+	var ftime  = process.hrtime(),
+	 		result = callback();
 
-	console.log("Result: " + result);
-	console.log("Time :" + (stime.getTime() - ftime.getTime()) / 1000 + "s");
+	console.log("=> Result: " + result);
+	var diff = process.hrtime(ftime);
+
+	console.log("=> Time: "+ ((diff[1] * 1e-10).toFixed(7)) +"s");
 }
