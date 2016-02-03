@@ -32,6 +32,14 @@ $ ruby problem_8/solution.rb
 => Result: 23514624000
 => Time: 0.004709s
 ```
+
+### Go
+```go
+$ go run solutions/problem_8/solution.go
+=> Result: 23514624000
+=> Time: 0.00042807s
+```
+
 ### Python
 ```
 $ python problem_8/solution.py
