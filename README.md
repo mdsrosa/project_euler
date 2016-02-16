@@ -1,4 +1,4 @@
-# Project Euler's Problems Solutions
+# Project Euler's Solutions
 
 Solutions for problems from [projecteuler.net](https://projecteuler.net).
 
@@ -8,18 +8,91 @@ Solutions for problems from [projecteuler.net](https://projecteuler.net).
 
 Problem  | Python   | Ruby |C  |Go |Clojure |Perl | C++ | Javascript
 ---------|----------|------|---|---|--------|------|----|----
-[#1](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.c)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.go)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.clj) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.pl) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.cpp) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.js)
-[#2](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.c)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.go)|`NIY`| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.pl) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.cpp) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.js)
-[#3](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.c)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.go)|`NIY`|`NIY`|`NIY`| `NIY`
-[#4](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.go)|`NIY`|`NIY`|`NIY`| `NIY`
-[#5](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.go)|`NIY`|`NIY`|`NIY`| `NIY`
-[#6](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/README.md)  |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.py)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.go)|`NIY`|`NIY`|`NIY`| `NIY`
-[#7](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/README.md) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.py)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.go)|`NIY`|`NIY`|`NIY`| `NIY`
-[#8](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/README.md) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.py)|[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.rb) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.c) |[Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.go)|`NIY`|`NIY`|`NIY`| `NIY`
-[#9](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/README.md) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.py) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.rb) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.c)| [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.go) |`NIY`|`NIY`|`NIY`| `NIY`
-[#10](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/README.md) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.py) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.rb) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.c) | [Solution](https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.go) | `NIY`|`NIY`|`NIY`| `NIY`
+[#001][p_001]|[Solution][s001_py]|[Solution][s001_rb]|[Solution][s001_c]|[Solution][s001_go]|[Solution][s001_clj]|[Solution][s001_pl]|[Solution][s001_cpp]|[Solution][s001_js]
+[#002][p_002]|[Solution][s002_py]|[Solution][s002_rb]|[Solution][s002_c]|[Solution][s002_go]|`NIY`|[Solution][s002_pl]|[Solution][s002_cpp]|[Solution][s002_js]
+[#003][p_003]|[Solution][s003_py]|[Solution][s003_rb]|[Solution][s003_c]|[Solution][s003_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#004][p_004]|[Solution][s004_py]|[Solution][s004_rb]|[Solution][s004_c]|[Solution][s004_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#005][p_005]|[Solution][s005_py]|[Solution][s005_rb]|[Solution][s005_c]|[Solution][s005_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#006][p_006]|[Solution][s006_py]|[Solution][s006_rb]|[Solution][s006_c]|[Solution][s006_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#007][p_007]|[Solution][s007_py]|[Solution][s007_rb]|[Solution][s007_c]|[Solution][s007_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#008][p_008]|[Solution][s008_py]|[Solution][s008_rb]|[Solution][s008_c]|[Solution][s008_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#009][p_009]|[Solution][s009_py]|[Solution][s009_rb]|[Solution][s009_c]|[Solution][s009_go]|`NIY`|`NIY`|`NIY`|`NIY`
+[#010][p_010]|[Solution][s010_py]|[Solution][s010_rb]|[Solution][s010_c]|[Solution][s010_go]|`NIY`|`NIY`|`NIY`|`NIY`
 
+[//]: # "Problems"
+[p_001]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/README.md
+[p_002]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/README.md
+[p_003]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/README.md
+[p_004]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/README.md
+[p_005]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/README.md
+[p_006]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/README.md
+[p_007]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/README.md
+[p_008]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/README.md
+[p_009]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/README.md
+[p_010]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/README.md
 
+[//]: # "Python solutions"
+[s001_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.py
+[s002_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.py
+[s003_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.py
+[s004_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.py
+[s005_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.py
+[s006_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.py
+[s007_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.py
+[s008_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.py
+[s009_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.py
+[s010_py]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.py
+
+[//]: # "Ruby solutions"
+[s001_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.rb
+[s002_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.rb
+[s003_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.rb
+[s004_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.rb
+[s005_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.rb
+[s006_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.rb
+[s007_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.rb
+[s008_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.rb
+[s009_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.rb
+[s010_rb]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.rb
+
+[//]: # "C solutions"
+[s001_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.c
+[s002_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.c
+[s003_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.c
+[s004_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.c
+[s005_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.c
+[s006_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.c
+[s007_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.c
+[s008_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.c
+[s009_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.c
+[s010_c]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.c
+
+[//]: # "Go solutions"
+[s001_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.go
+[s002_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.go
+[s003_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_3/solution.go
+[s004_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_4/solution.go
+[s005_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_5/solution.go
+[s006_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_6/solution.go
+[s007_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_7/solution.go
+[s008_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_8/solution.go
+[s009_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_9/solution.go
+[s010_go]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_10/solution.go
+
+[//]: # "Clojure solutions"
+[s001_clj]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.clj
+
+[//]: # "C++ solutions"
+[s001_cpp]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.cpp
+[s002_cpp]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.cpp
+
+[//]: # "Perl solutions"
+[s001_pl]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.pl
+[s002_pl]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.pl
+
+[//]: # "Javascript solutions"
+[s001_js]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.js
+[s002_js]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.js
 
 # Contributing with your solution
 
