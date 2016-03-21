@@ -62,3 +62,10 @@ $ node solutions/problem_1/solutions.js
 => Result: 233168
 => Time: 0.001s
 ```
+
+### Elixir
+```elixir
+$ elixir solutions/problem_1/solution.ex
+=> Result: 233168
+=> Time: 0.000045
+```
