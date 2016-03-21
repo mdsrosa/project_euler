@@ -6,18 +6,18 @@ Solutions for problems from [projecteuler.net](https://projecteuler.net).
 
 `NIY = Not Implemented Yet`
 
-Problem  | Python   | Ruby |C  |Go |Clojure |Perl | C++ | Javascript
----------|----------|------|---|---|--------|------|----|----
-[#001][p_001]|[Solution][s001_py]|[Solution][s001_rb]|[Solution][s001_c]|[Solution][s001_go]|[Solution][s001_clj]|[Solution][s001_pl]|[Solution][s001_cpp]|[Solution][s001_js]
-[#002][p_002]|[Solution][s002_py]|[Solution][s002_rb]|[Solution][s002_c]|[Solution][s002_go]|`NIY`|[Solution][s002_pl]|[Solution][s002_cpp]|[Solution][s002_js]
-[#003][p_003]|[Solution][s003_py]|[Solution][s003_rb]|[Solution][s003_c]|[Solution][s003_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#004][p_004]|[Solution][s004_py]|[Solution][s004_rb]|[Solution][s004_c]|[Solution][s004_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#005][p_005]|[Solution][s005_py]|[Solution][s005_rb]|[Solution][s005_c]|[Solution][s005_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#006][p_006]|[Solution][s006_py]|[Solution][s006_rb]|[Solution][s006_c]|[Solution][s006_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#007][p_007]|[Solution][s007_py]|[Solution][s007_rb]|[Solution][s007_c]|[Solution][s007_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#008][p_008]|[Solution][s008_py]|[Solution][s008_rb]|[Solution][s008_c]|[Solution][s008_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#009][p_009]|[Solution][s009_py]|[Solution][s009_rb]|[Solution][s009_c]|[Solution][s009_go]|`NIY`|`NIY`|`NIY`|`NIY`
-[#010][p_010]|[Solution][s010_py]|[Solution][s010_rb]|[Solution][s010_c]|[Solution][s010_go]|`NIY`|`NIY`|`NIY`|`NIY`
+Problem  | Python   | Ruby |C  |Go |Clojure |Perl  | C++ | Javascript | Elixir
+---------|----------|------|---|---|--------|------|-----|------------|-------
+[#001][p_001]|[Solution][s001_py]|[Solution][s001_rb]|[Solution][s001_c]|[Solution][s001_go]|[Solution][s001_clj]|[Solution][s001_pl]|[Solution][s001_cpp]|[Solution][s001_js]|[Solution][s001_ex]
+[#002][p_002]|[Solution][s002_py]|[Solution][s002_rb]|[Solution][s002_c]|[Solution][s002_go]|`NIY`|[Solution][s002_pl]|[Solution][s002_cpp]|[Solution][s002_js]|`NIY`
+[#003][p_003]|[Solution][s003_py]|[Solution][s003_rb]|[Solution][s003_c]|[Solution][s003_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#004][p_004]|[Solution][s004_py]|[Solution][s004_rb]|[Solution][s004_c]|[Solution][s004_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#005][p_005]|[Solution][s005_py]|[Solution][s005_rb]|[Solution][s005_c]|[Solution][s005_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#006][p_006]|[Solution][s006_py]|[Solution][s006_rb]|[Solution][s006_c]|[Solution][s006_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#007][p_007]|[Solution][s007_py]|[Solution][s007_rb]|[Solution][s007_c]|[Solution][s007_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#008][p_008]|[Solution][s008_py]|[Solution][s008_rb]|[Solution][s008_c]|[Solution][s008_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#009][p_009]|[Solution][s009_py]|[Solution][s009_rb]|[Solution][s009_c]|[Solution][s009_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
+[#010][p_010]|[Solution][s010_py]|[Solution][s010_rb]|[Solution][s010_c]|[Solution][s010_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
 
 [//]: # "Problems"
 [p_001]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/README.md
@@ -93,6 +93,9 @@ Problem  | Python   | Ruby |C  |Go |Clojure |Perl | C++ | Javascript
 [//]: # "Javascript solutions"
 [s001_js]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.js
 [s002_js]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.js
+
+[//]: # "Elixir solutions"
+[s001_ex]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.ex
 
 # Contributing with your solution
 
