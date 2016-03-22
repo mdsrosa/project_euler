@@ -73,4 +73,10 @@ Solution 2
 => Time: 0.0000077s
 ```
 
+### Elixir
+```elixir
+$ elixir solutions/problem_2/solution.ex
+=> Result: 4613732
+=> Time: 0.000002
+```
 
