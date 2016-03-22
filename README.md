@@ -9,7 +9,7 @@ Solutions for problems from [projecteuler.net](https://projecteuler.net).
 Problem  | Python   | Ruby |C  |Go |Clojure |Perl  | C++ | Javascript | Elixir
 ---------|----------|------|---|---|--------|------|-----|------------|-------
 [#001][p_001]|[Solution][s001_py]|[Solution][s001_rb]|[Solution][s001_c]|[Solution][s001_go]|[Solution][s001_clj]|[Solution][s001_pl]|[Solution][s001_cpp]|[Solution][s001_js]|[Solution][s001_ex]
-[#002][p_002]|[Solution][s002_py]|[Solution][s002_rb]|[Solution][s002_c]|[Solution][s002_go]|`NIY`|[Solution][s002_pl]|[Solution][s002_cpp]|[Solution][s002_js]|`NIY`
+[#002][p_002]|[Solution][s002_py]|[Solution][s002_rb]|[Solution][s002_c]|[Solution][s002_go]|`NIY`|[Solution][s002_pl]|[Solution][s002_cpp]|[Solution][s002_js]|[Solution][s002_ex]
 [#003][p_003]|[Solution][s003_py]|[Solution][s003_rb]|[Solution][s003_c]|[Solution][s003_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
 [#004][p_004]|[Solution][s004_py]|[Solution][s004_rb]|[Solution][s004_c]|[Solution][s004_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
 [#005][p_005]|[Solution][s005_py]|[Solution][s005_rb]|[Solution][s005_c]|[Solution][s005_go]|`NIY`|`NIY`|`NIY`|`NIY`|`NIY`
@@ -96,6 +96,7 @@ Problem  | Python   | Ruby |C  |Go |Clojure |Perl  | C++ | Javascript | Elixir
 
 [//]: # "Elixir solutions"
 [s001_ex]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_1/solution.ex
+[s002_ex]: https://github.com/mdsrosa/project_euler/blob/master/solutions/problem_2/solution.ex
 
 # Contributing with your solution
 
